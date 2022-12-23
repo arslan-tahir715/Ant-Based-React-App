@@ -1,0 +1,73 @@
+@import "antd/es/style/themes/default.less";
+
+.drawer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.ant-menu-item {
+    align-items: center;
+    display: flex !important;
+    padding: @menu-item-padding !important;
+    background-color: transparent !important; 
+    border: none !important;
+    cursor: pointer !important;
+}
+
+.workspace-menu-item {
+    padding: @workspace-menu-padding !important;
+}
+
+.drawer-content-cards {
+    display: flex;    
+}
+
+.ant-modal-content {
+    background-color: none !important;
+}
+
+.tab-select-wide{
+    width: tab-select-width-wide !important;
+    height: 2.5rem !important;
+    margin: @tab-select-wide-margin !important;
+    padding: 0.5rem 0 0.5rem 0rem !important;
+    border-radius: 8px !important;
+    background-color: var(--ant-warning-color) !important;
+}
+
+.tab-select-narrow{
+    width: tab-select-width-narrow !important;
+    height: 2.5rem !important;
+    margin: @tab-select-narrow-margin !important;
+    padding: 0.5rem !important;
+    border-radius: 8px !important;
+    background-color: var(--ant-warning-color) !important;
+}
+
+.ant-menu-item::after{
+    border-right: 0px !important;
+}
+
+.ant-modal-header{
+    padding: 0 10px !important;
+    background-color: var(--ant-warning-color) !important;
+    border: none !important;
+}
+
+.ant-modal-title{
+    color: var(--ant-info-color) !important;
+    font-size: 15px !important;
+    font-weight: 800 !important;
+}
+
+.opacity-class {
+    opacity: 0.4;
+}
+
+.ant-menu-title-content {
+    margin-left: @menu-title-content-spacing-1 !important;
+}
+
+.ant-menu-item{
+    margin-bottom: @menu-item-bottom-spacing-1 !important;
+}
